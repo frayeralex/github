@@ -2,6 +2,7 @@ package com.github.frayeralex.github.db
 
 import android.content.Context
 import androidx.room.*
+import com.github.frayeralex.github.enities.ProfileEntity
 
 @Database(entities = arrayOf(ProfileEntity::class), version = 1, exportSchema = false)
 public abstract class AppDatabase : RoomDatabase() {
